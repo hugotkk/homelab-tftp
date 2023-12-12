@@ -1,3 +1,8 @@
-tftp
-!tftp/EFI
-!tftp/pxelinux.0
+**/initrd
+**/vmlinuz
+**/xen
+**/install.img
+tftp/grubx64.efi
+tftp/mboot.c32
+tftp/menu.c32
+tftp/pxelinux.0
