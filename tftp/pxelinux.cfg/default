@@ -1,0 +1,4 @@
+default xcp-ng-auto
+label xcp-ng-auto
+    kernel mboot.c32
+    append /srv/tftp/xcp-ng-8.3.0/xen dom0_max_vcpus=2 dom0_mem=2048M,max:2048M com1=115200,8n1 console=com1,vga --- /srv/tftp/xcp-ng-8.3.0/vmlinuz xencons=hvc console=hvc0 console=tty0 answerfile=http://192.168.0.182/xcp-ng/answerfile.xml install --- /srv/tftp/xcp-ng-8.3.0/install.img

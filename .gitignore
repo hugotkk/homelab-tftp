@@ -1,0 +1,3 @@
+tftp
+!tftp/EFI
+!tftp/pxelinux.0
